@@ -45,7 +45,7 @@ def main():
 
     print("\n상위 10개 유사한 판례:")
     for rank, idx in enumerate(top_k_indices):
-        print(f"{rank + 1}. 판례정보일련번호: {case_ids[idx]}, 유사도 값: {top_k_similarities[rank]:.4f}")
+        print(f"{rank + 1}. 판례정보일련번호: {case_ids[idx]}, 유사도 값: {top_k_similarities[rank]:.4f} \n링크: https://www.law.go.kr/DRF/lawService.do?OC=kroad0129&target=prec&ID={case_ids[idx]}&type=HTML")
 
 
 if __name__ == "__main__":
