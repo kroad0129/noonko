@@ -1,1 +1,17 @@
-bert_eojeol_pytorch/
+# Node.js 관련
+node_modules/        # npm install로 복구 가능하므로 제외
+dist/                # 빌드 결과물 제외
+build/               # React 빌드 결과물 제외
+*.log                # 로그 파일 제외
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE 및 시스템 파일
+.idea/               # IntelliJ, WebStorm 설정 폴더 제외
+.vscode/             # Visual Studio Code 설정 폴더 제외
+.DS_Store            # Mac OS에서 자동 생성되는 파일 제외
+Thumbs.db            # Windows에서 자동 생성되는 파일 제외
+
+# 환경 변수 및 보안 설정 파일
+.env                 # 환경 변수 파일 제외
